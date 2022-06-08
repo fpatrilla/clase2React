@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navigation from './components/Navigations';
+import Navigation from './components/NavBar';
 
 
 class App extends Component{
@@ -9,7 +9,8 @@ class App extends Component{
       <div>
 
       <h1>MuebleStore</h1>
-        <Navigation></Navigation>
+        <Navigation/>
+        
 
         <h4>Federico Patrilla</h4>
 
